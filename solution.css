@@ -8,6 +8,7 @@
 }
 
 /* Soluzione esercizio 2 */
+
 .ex-2-square{
 
 transition: 5s;
@@ -23,6 +24,7 @@ width: 100%;
 }
 
 /* Soluzione Esercizio 3 */
+
 .ex-3-square{
 
 transition: 2s;
@@ -36,5 +38,103 @@ border-radius: 50px;
 }
 
 
+/* Soluzione esercizio 4 */
+
+.ex-4-square{
+
+    transition: 2s;
+    
+    }
+    
+.ex-4-square:hover{
+    
+opacity: 0; 
+
+}
+    
+
+/* Soluzione esercizio 5  */
+
+.ex-5-square{
+
+    transition: 2s;
+
+    }
+    
+
+.ex-5-square:hover{
+
+transform: scale(2);
+
+}
+
+
+.ex-5-square:active{
+
+transform: scale(0.5);
+
+}
+
+
+/* Soluzione Esercizio 6  */
+
+.ex-6-img:hover{
+
+filter: grayscale(1);
+
+}
+
+/* Soluzione Esercizio 7  */
+
+.ex-7-img{
+
+transition: 3s;
+
+}
+
+.ex-7-img:hover{
+
+filter: grayscale(0.8); 
+filter: sepia(0.7);
+
+}
+
+
+/* Soluzione Esercizio 8  */
+
+.ex-8-img{
+
+transition: 3s;
+    
+}
+
+.ex-8-img:hover{
+
+
+filter: grayscale(0.8); 
+filter: sepia(0.7);
+border-radius: 20px;
+
+}
+
+
+
+/* Soluzione Esercizio 9  */
+
+.ex-9-img{
+
+transition: 3s;
+        
+}
+    
+.ex-9-img:hover{
+    
+    
+filter: grayscale(0.8); 
+filter: sepia(0.7);
+border-radius: 20px;
+transform: scale(1.5);
+    
+}
 
 
