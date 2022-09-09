@@ -137,4 +137,119 @@ transform: scale(1.5);
     
 }
 
+/* Soluzione Esercizio 10  */
 
+.ex-10-icon{
+
+animation-name: Rotation;
+animation-iteration-count: infinite;
+animation-timing-function: linear; 
+animation-duration: 1s;
+
+        
+}
+    
+    
+@keyframes Rotation{
+    
+/* 0%{
+   
+transform: rotate(1turn); 
+
+} */
+
+
+0%{
+
+transform: rotate(0deg);
+
+
+
+}
+
+25%{
+
+transform: rotate(-90deg);
+
+}
+
+
+50%{
+
+transform: rotate(-180deg);
+
+}
+
+
+75%{
+
+transform: rotate(-270deg);
+
+
+}
+
+100%{
+
+ transform: rotate(-360deg);   
+
+
+
+}
+
+}
+
+
+/* Soluzione Esercizio 11  */
+
+
+.ex-11-icon:hover{
+
+animation-name: Rotation-11;
+animation-iteration-count: infinite;
+animation-timing-function: linear; 
+animation-duration: 3s;
+
+}
+
+@keyframes Rotation-11{
+    
+
+    0%{
+    
+    transform: rotate(0deg);
+    
+    
+    }
+    
+    25%{
+    
+    transform: rotate(90deg);
+    
+
+    }
+    
+    
+    50%{
+    
+    transform: rotate(180deg);
+    
+
+    }
+    
+    
+    75%{
+    
+    transform: rotate(270deg);
+    
+    
+    }
+    
+    100%{
+    
+     transform: rotate(270deg,-270deg);  
+    
+    
+    
+    }
+
+}
